@@ -1,6 +1,6 @@
 # rott-darkwar-plus (rott-darkwar+)  
 ## ***WIP***  
-![rott-darkwar-plus.png](https://raw.githubusercontent.com/RapidEdwin08/rott-darkwar-plus/main/rott-darkwar-plus.png)  
+
 
 [rott-darkwar+] Emulator Entry allows you to easily load M0Ds for Rise Of The Triad: Dark War in RetroPie.  
 
