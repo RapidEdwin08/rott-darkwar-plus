@@ -42,10 +42,10 @@ cd ~/rott-darkwar-plus && ./rott-darkwar_plus.sh
 **[rottZIPmain]:** ZIP the ENTIRE GAME Rise Of The Triad Dark War  
 *eg. [rott-darkwar.zip]:* DARKWAR.RTL + DARKWAR.RTC + DARKWAR.WAD + REMOTE1.RTS  
 
-**[rottZIPmod]:** ZIP 0nly the M0D File(s) eg. Extreme Rise Of The Triad  
-*eg. [rott-extreme.zip]:* DARKWAR.RTL  
+**[rottZIPmod]:** ZIP 0nly the M0D File(s)  
+*eg. Extreme Rise Of The Triad [rott-extreme.zip]:* DARKWAR.RTL  
 
-**R0TT-Plus-Template.sh:** Input Full Path to ZIP Files  
+**[R0TT-Plus-Template.sh]:** Input Full Path to ZIP Files  
 **rottZIPmain=**/home/pi/RetroPie/roms/ports/rott-darkwar/rott-darkwar.zip  
 **rottZIPmod=**/home/pi/RetroPie/roms/ports/rott-darkwar/rott-extreme.zip  
 
