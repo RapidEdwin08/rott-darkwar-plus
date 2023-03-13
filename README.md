@@ -33,7 +33,7 @@ cd ~/rott-darkwar-plus && ./rott-darkwar_plus.sh
 		<path>./rott-darkwar_plus.sh</path>
 		<name>[rott-darkwar+] Rise of the Triad Dark War Plus</name>
 		<desc>Configure [rott-darkwar+] for [RetroPie].</desc>
-		<image>./icons/rott-darkwar-plus.png</image>
+		<image>./icons/rott-darkwar_plus.png</image>
 	</game>
 ```
 
