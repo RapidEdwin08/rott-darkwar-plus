@@ -5,7 +5,7 @@
 **HOW DOES IT WORK?**  
 [rott-darkwar+] Emulator Entry points to [/dev/shm/rott-darkwar] in TMPFS.  
 [R0TT-Plus.sh] Template Extracts [R0TT-MAIN.ZIP] + [R0TT-M0D.ZIP] to [/dev/shm/rott-darkwar] in TMPFS.  
-*Utility also Updates rott-darkwar/rott-huntbgin emulators.cfgs to include BOTH +/- XINIT entries.*  
+*Utility also Updates rott-darkwar/rott-huntbgin emulators.cfg files to include BOTH +/- XINIT entries.*  
 
 ## INSTALLATION  
 ***You MUST INSTALL Rise of the Triad Dark War from RetroPie Setup 1st! [rott-darkwar]***  
@@ -44,6 +44,7 @@ wget https://raw.githubusercontent.com/RapidEdwin08/rott-darkwar-plus/main/Rise\
 
 ## REFERENCES   
 **[rottZIPmain]:** ZIP the ENTIRE GAME Rise Of The Triad Dark War  
+Script Creates rott-darkwar.ZIP @INSTALL for you if ALL FILEs are found  
 *eg. [rott-darkwar.zip]:* DARKWAR.RTL + DARKWAR.RTC + DARKWAR.WAD + REMOTE1.RTS  
 
 **[rottZIPmod]:** ZIP 0nly the M0D File(s)  
