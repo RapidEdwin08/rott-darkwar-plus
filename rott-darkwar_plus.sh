@@ -61,7 +61,8 @@ https://github.com/Exarkuniv/RetroPie-Extra
 
 # How to use:
 [rottZIPmain]: ZIP the ENTIRE GAME Rise Of The Triad Dark War
-eg [rott-darkwar.zip]: DARKWAR.RTL+DARKWAR.RTC+DARKWAR.WAD+REMOTE1.RTS
+Script Creates rott-darkwar.ZIP @INSTALL for you if ALL FILEs are found
+eg [rott-darkwar.zip]: DARKWAR.RTL DARKWAR.RTC DARKWAR.WAD REMOTE1.RTS
 
 [rottZIPmod]: ZIP 0nly the M0D File(s)
 eg. Extreme Rise Of The Triad [rott-extreme.zip]: DARKWAR.RTL
@@ -88,6 +89,13 @@ echo '
 ======================================================================
 CURRENT CONTENT [/opt/retropie/configs/ports/rott-huntbgin/emulators.cfg]:                   
 ======================================================================
+')
+
+rottdwLST=$(
+echo 'DARKWAR.RTL
+DARKWAR.RTC
+DARKWAR.WAD
+REMOTE1.RTS
 ')
 
 mainMENU()
@@ -136,6 +144,16 @@ if [ "$confROTTplus" == '1' ]; then
 				dialog --no-collapse --title "               [ERROR]               " --msgbox "   *INTERNET CONNECTION REQUIRED* TO INSTALL [ZIP/UNZIP]"  25 75
 				mainMENU
 			fi
+		fi
+		
+		# Create rott-darkwar.zip IF all x4 ROTT DW FILEs exist 
+		if [ -f ~/RetroPie/roms/ports/rott-darkwar/DARKWAR.RTL ] && [ -f ~/RetroPie/roms/ports/rott-darkwar/DARKWAR.RTC ] && [ -f ~/RetroPie/roms/ports/rott-darkwar/DARKWAR.WAD ] && [ -f ~/RetroPie/roms/ports/rott-darkwar/REMOTE1.RTS ] && [ ! -f ~/RetroPie/roms/ports/rott-darkwar/rott-darkwar.zip ]; then
+			echo "R0TT DARKWAR FILEs FOUND. Creating [rott-darkwar.zip]..."
+			cd ~/RetroPie/roms/ports/rott-darkwar
+			echo "$rottdwLST" > ~/RetroPie/roms/ports/rott-darkwar/rott-darkwar.lst
+			zip -9 rott-darkwar.zip -@ < rott-darkwar.lst
+			rm ~/RetroPie/roms/ports/rott-darkwar/rott-darkwar.lst
+			cd ~
 		fi
 		
 		# Add rott-darkwar+ Config
