@@ -117,6 +117,20 @@ if [ "$confROTTplus" == '1' ]; then
 			mainMENU
 		fi
 		
+		# Install [ZIP/UNZIP] - Check If Internet Connection Available
+		if [[ "$(dpkg -l | grep -F '  zip ')" == '' ]] || [[ "$(dpkg -l | grep -F '  unzip ')" == '' ]]; then
+			wget -q --spider http://google.com
+			if [ $? -eq 0 ]; then
+				sudo apt-get install zip -y
+				sudo apt-get install unzip -y
+				#sudo apt-get install p7zip-full -y
+			else
+				# No Internet - Back to Main Menu
+				dialog --no-collapse --title "               [ERROR]               " --msgbox "   *INTERNET CONNECTION REQUIRED* TO INSTALL [ZIP/UNZIP/P7ZIP]"  25 75
+				mainMENU
+			fi
+		fi
+		
 		# Add rott-darkwar+ Config
 		if [ -f /opt/retropie/configs/ports/rott-darkwar/emulators.cfg ]; then
 			# Backup emulators.cfg if NOT found
