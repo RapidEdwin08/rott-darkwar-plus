@@ -126,7 +126,7 @@ if [ "$confROTTplus" == '1' ]; then
 				#sudo apt-get install p7zip-full -y
 			else
 				# No Internet - Back to Main Menu
-				dialog --no-collapse --title "               [ERROR]               " --msgbox "   *INTERNET CONNECTION REQUIRED* TO INSTALL [ZIP/UNZIP/P7ZIP]"  25 75
+				dialog --no-collapse --title "               [ERROR]               " --msgbox "   *INTERNET CONNECTION REQUIRED* TO INSTALL [ZIP/UNZIP]"  25 75
 				mainMENU
 			fi
 		fi
