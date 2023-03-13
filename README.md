@@ -15,7 +15,7 @@ Can be ran from retropiemenu:
 
 ```bash
 wget https://raw.githubusercontent.com/RapidEdwin08/rott-darkwar-plus/main/rott-darkwar_plus.sh -P ~/RetroPie/retropiemenu
-wget https://raw.githubusercontent.com/RapidEdwin08/rott-darkwar-plus/main/rott-darkwar-plus.png -P ~/RetroPie/retropiemenu/icons
+wget https://raw.githubusercontent.com/RapidEdwin08/rott-darkwar-plus/main/rott-darkwar_plus.png -P ~/RetroPie/retropiemenu/icons
 ```
 
 0R Run Manually from any directory:  
