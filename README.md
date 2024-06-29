@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/RapidEdwin08/rott-darkwar-plus/main/rott-
 ```bash
 cd ~
 git clone --depth 1 https://github.com/RapidEdwin08/rott-darkwar-plus.git
-sudo chmod 755 ~/rott-darkwar-plus/rott-darkwar_plus.sh
+chmod 755 ~/rott-darkwar-plus/rott-darkwar_plus.sh
 cd ~/rott-darkwar-plus && ./rott-darkwar_plus.sh
 ```
 
