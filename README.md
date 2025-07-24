@@ -3,9 +3,9 @@
 [rott-darkwar+] Emulator Entry allows you to easily load M0Ds for Rise Of The Triad: Dark War in RetroPie.  
 
 **HOW DOES IT WORK?**  
-[rott-darkwar+] Emulator Entry points to [/dev/shm/rott-darkwar] in TMPFS.  
-[R0TT-Plus.sh] Template Extracts [R0TT-MAIN.ZIP] + [R0TT-M0D.ZIP] to [/dev/shm/rott-darkwar] in TMPFS.  
-*Utility also Updates rott-darkwar/rott-huntbgin emulators.cfg files to include BOTH +/- XINIT entries.*  
+[rott-darkwar+] Emulator Entry points to [/dev/shm/rott-darkwar] in TMP/RAM.  
+[R0TT-Plus.sh] Template Extracts [R0TT-MAIN.ZIP] + [R0TT-M0D.ZIP] to [/dev/shm/rott-darkwar] in TMP/RAM.  
+*Utility can also Compile/Install [wadmerge] for Merging WADs*  
 
 ## INSTALLATION  
 ***You MUST INSTALL Rise of the Triad Dark War from RetroPie Setup 1st! [rott-darkwar]***  
@@ -55,6 +55,6 @@ Script Creates rott-darkwar.ZIP @INSTALL for you if ALL FILEs are found
 **rottZIPmod=**/home/pi/RetroPie/roms/ports/rott-darkwar/rott-extreme.zip  
 
 ***SOURCES:***  
-[RoTT](https://github.com/zerojay/RoTT)  
-[RoTT-EXPR](https://github.com/LTCHIPS/rottexpr)  
-
+[RoTT EXPR](https://github.com/LTCHIPS/rottexpr)  
+[RoTT (Legacy)](https://github.com/zerojay/RoTT)  
+[RoTT (Source)](https://github.com/videogamepreservation/rott)  
