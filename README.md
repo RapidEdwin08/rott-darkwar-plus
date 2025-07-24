@@ -9,7 +9,7 @@
 
 ## INSTALLATION  
 ***You MUST INSTALL Rise of the Triad Dark War from RetroPie Setup 1st! [rott-darkwar]***  
-*eg. from [Exarkuniv/RetroPie-Extra/ports/rott-darkwar](https://github.com/Exarkuniv/RetroPie-Extra/blob/master/scriptmodules/ports/rott-darkwar.sh)  
+*eg. from [RapidEdwin08/ext/RetroPie-Extra/scriptmodules/ports/rott-darkwar](https://github.com/RapidEdwin08/RetroPie-Setup/blob/master/ext/RetroPie-Extra/scriptmodules/ports/rott-darkwar.sh)  
 
 Can be ran from retropiemenu:  
 
