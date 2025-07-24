@@ -55,4 +55,6 @@ Script Creates rott-darkwar.ZIP @INSTALL for you if ALL FILEs are found
 **rottZIPmod=**/home/pi/RetroPie/roms/ports/rott-darkwar/rott-extreme.zip  
 
 ***SOURCES:***  
-[Exarkuniv/RetroPie-Extra](https://github.com/Exarkuniv/RetroPie-Extra)  
+[RoTT](https://github.com/zerojay/RoTT)  
+[RoTT-EXPR](https://github.com/LTCHIPS/rottexpr)  
+
