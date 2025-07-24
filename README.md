@@ -57,4 +57,4 @@ Script Creates rott-darkwar.ZIP @INSTALL for you if ALL FILEs are found
 ***SOURCES:***  
 [RoTT EXPR](https://github.com/LTCHIPS/rottexpr)  
 [RoTT (Legacy)](https://github.com/zerojay/RoTT)  
-[RoTT (Source)](https://github.com/videogamepreservation/rott)  
+[ftp://ftp.3drealms.com/source/rottsource.zip](ftp://ftp.3drealms.com/source/rottsource.zip)  
